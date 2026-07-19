@@ -1,72 +1,84 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>قسم الرجال - قطونيل الرمادي</title>
+<title>قسم الرجال | Cottonil</title>
 
 <style>
 
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family:Tahoma, Arial, sans-serif;
-    background:#f3f5f7;
+}
+
+body{
+    background:#f5f5f5;
 }
 
 header{
-    background:#0056A7;
+    background:#0d5c63;
     color:white;
     text-align:center;
     padding:20px;
 }
 
 header h1{
-    margin:0;
-    font-size:35px;
+    font-size:32px;
 }
 
 .container{
     width:90%;
-    max-width:900px;
+    max-width:1200px;
     margin:30px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
 }
 
 .card{
     background:white;
     border-radius:15px;
+    overflow:hidden;
     box-shadow:0 4px 12px rgba(0,0,0,.15);
-    padding:20px;
-    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
 }
 
 .card img{
-    width:300px;
-    max-width:100%;
-    border-radius:12px;
+    width:100%;
+    height:300px;
+    object-fit:cover;
 }
 
 .card h2{
-    color:#0056A7;
-    margin-top:20px;
+    text-align:center;
+    padding:15px;
+    color:#0d5c63;
 }
 
 .price{
-    font-size:24px;
-    color:#d32f2f;
+    text-align:center;
+    color:#d60000;
+    font-size:22px;
     font-weight:bold;
-    margin:15px 0;
+    margin-bottom:10px;
 }
 
 .description{
-    color:#444;
-    font-size:18px;
-    line-height:1.8;
+    padding:15px;
+    line-height:1.9;
+    color:#333;
 }
 
 .whatsapp{
-    margin-top:25px;
+    text-align:center;
+    margin:20px;
 }
 
 .whatsapp a{
@@ -74,19 +86,34 @@ header h1{
     background:#25D366;
     color:white;
     text-decoration:none;
-    padding:12px 25px;
+    padding:12px 22px;
     border-radius:10px;
-    font-size:18px;
+    font-weight:bold;
 }
 
 .back{
-    display:inline-block;
-    margin-top:20px;
-    background:#0056A7;
+    text-align:center;
+    margin:40px;
+}
+
+.back a{
+    background:#0d5c63;
     color:white;
     text-decoration:none;
-    padding:12px 25px;
+    padding:12px 20px;
     border-radius:10px;
+}
+
+@media(max-width:900px){
+.container{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:600px){
+.container{
+grid-template-columns:1fr;
+}
 }
 
 </style>
@@ -100,17 +127,17 @@ header h1{
 </header>
 
 <div class="container">
-
+    <!-- المنتج الأول -->
 <div class="card">
 
-<img src="https://raw.githubusercontent.com/cottonilramadi/Cottonil_Store/main/photo_5395469760306287966_y.jpg" alt="حمالة قطن استرتش أبيض">
+<img src="https://raw.githubusercontent.com/cottonilramadi/Cottonil_Store/main/554FB012-766F-4463-8F18-EB1A51BBCEBE.jpeg" alt="حمالة قطن استرتش أبيض">
 
 <h2>حمالة قطن استرتش أبيض</h2>
 
 <p class="price">السعر: 6,000 د.ع</p>
 
 <p class="description">
-قطونيل استرتش مصنوعة من أفضل خامات سنجل ليكرا، تمزج بين الراحة والنعومة والشكل الرياضي العصري، ومتوفرة بمجموعة من الألوان المختلفة والمميزة.
+حمالة قطونيل استرتش مصنوعة من أفضل خامات سنجل ليكرا، تمزج بين الراحة والنعومة والشكل الرياضي العصري، ومتوفرة بمجموعة من الألوان المميزة.
 </p>
 
 <div class="whatsapp">
@@ -118,6 +145,10 @@ header h1{
 📱 اطلب الآن عبر واتساب
 </a>
 </div>
+
+</div>
+
+<!-- المنتج الثاني -->
 <div class="card">
 
 <img src="https://raw.githubusercontent.com/cottonilramadi/Cottonil_Store/main/F9DBB753-5CCE-429B-AC49-DC9E13916435.jpeg" alt="نصف كم استرتش دائري أبيض">
@@ -127,17 +158,7 @@ header h1{
 <p class="price">السعر: 7,000 د.ع</p>
 
 <p class="description">
-فانلة قطونيل رجالي نصف كم استرتش برقبة دائرية (Round Neck)، تُعد من أشهر وأفضل منتجات الملابس الداخلية الرجالية.<br><br>
-
-✔️ <strong>الخامة:</strong> مصنوعة من أجود خامات القطن المصري الممزوج بالليكرا (92% قطن - 8% ليكرا)، لتمنح نعومة وراحة فائقة.<br><br>
-
-✔️ <strong>التصميم:</strong> رقبة دائرية عصرية تناسب جميع الإطلالات اليومية والرياضية.<br><br>
-
-✔️ <strong>المميزات:</strong><br>
-• مرونة عالية بفضل خامة الاسترتش.<br>
-• تحافظ على شكلها حتى مع الغسل المتكرر.<br>
-• مريحة جداً للاستخدام اليومي.<br>
-• مناسبة للأجواء الحارة ولا تسبب حساسية للجلد.
+فانلة قطونيل رجالي نصف كم استرتش برقبة دائرية (Round Neck)، مصنوعة من أجود خامات القطن المصري الممزوج بالليكرا (92% قطن و8% ليكرا)، تمنح نعومة وراحة فائقة، ومرونة عالية، وتحافظ على شكلها حتى مع الغسل المتكرر.
 </p>
 
 <div class="whatsapp">
@@ -148,17 +169,32 @@ header h1{
 
 </div>
 
-<br><br>
-<br>
+<!-- المنتج الثالث -->
+<div class="card">
 
-<a class="back" href="index.html">
-🏠 العودة إلى الصفحة الرئيسية
+<img src="https://raw.githubusercontent.com/cottonilramadi/Cottonil_Store/main/554FB012-766F-4463-8F18-EB1A51BBCEBE.jpeg" alt="نصف كم قطن استرتش V">
+
+<h2>نصف كم قطن استرتش V</h2>
+
+<p class="price">السعر: 7,000 د.ع</p>
+
+<p class="description">
+فانلة قطونيل رجالي نصف كم برقبة V، مصنوعة من أجود خامات القطن الطبيعي الممزوج بنسبة من الليكرا (92% قطن و8% ليكرا)، تمنح نعومة ومرونة عالية، وتمتص العرق، وتحافظ على شكلها مع الغسل المتكرر، كما أن تصميم الرقبة V يمنح مظهراً أنيقاً مع القمصان والتيشرتات.
+</p>
+
+<div class="whatsapp">
+<a href="https://wa.me/9647865611517" target="_blank">
+📱 اطلب الآن عبر واتساب
 </a>
+</div>
 
 </div>
 
+</div>
+
+<div class="back">
+<a href="index.html">🏠 العودة إلى الصفحة الرئيسية</a>
 </div>
 
 </body>
-
 </html>
